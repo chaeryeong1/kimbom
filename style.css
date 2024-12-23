@@ -1,0 +1,72 @@
+html {
+    font-family: 'KOTRA_GOTHIC';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_GOTHIC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+display:felx;
+  justify-content:center;
+  background-color:black;
+}
+.box{
+  width:auto;
+  height:auto;
+  background-color:#313131;
+  display:flex;
+  justify-content: center;
+    
+}
+.pt{
+  padding-top:100px;
+}
+.pb{
+  padding-bottom:120px;
+}
+.pb50{
+  padding-bottom:50px;
+}
+.pb10{
+  padding-bottom:10px;
+}
+.fb{
+  font-weight:bold;
+}
+.bom{
+  width:420px;
+  height:auto;
+  background-color:pink;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bom-1, .bom-2, .bom-3, .bom-4, .bom-5, .bom-6{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.bom-1-2{
+ font-size:24px;
+  padding-top:10px;
+  font-weight:600;
+}
+
+.bom-1-3{
+    align-items:center;
+}
+
+.bom-1-4{
+  padding-bottom:10px;
+}
+img{
+  width:420px;
+  height:auto;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
